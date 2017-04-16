@@ -10,18 +10,12 @@ include_once 'path/to/bitcoinTicker.php';
 
 
 ## Available Functions:
-Each of the following functions returns the latest USD value of one Bitcoin on the given exchange or price index. The functions are named after the excanhges, be careful of exchanges with similar sounding names.
+Each of the following functions returns the latest EUR value of one Bitcoin on the given exchange or price index. The functions are named after the excanhges, be careful of exchanges with similar sounding names.
 
 * coindeskBPI()
-* btcChina()
-* OKCoin()
-* bitfinex()
-* coinbase()
-* btce()
 * bitStamp()
-* campBX()
 * kraken()
-* crypto_trade()
+
 
 
 ## Usage:
@@ -40,6 +34,6 @@ print_r(coindeskBPI());
 
 Output:
 ```
-621.55
+1119.51
 ```
 
